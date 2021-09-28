@@ -1,5 +1,5 @@
 # 2017 & 2018 stock-analysis
-Overview of Project: Purpose of the analysis (purpose and background are well defined)
+
 ## Overview
 ### Investing in stocks can be risky if one does not possess wide background on the specific market in which the assets considered for investing work. Eventhough, it's possible to choose certain criteria that give an overview of how specific assets perform, giving our decissions higher chances of success (getting high returns from our investment).
 
@@ -8,8 +8,19 @@ Overview of Project: Purpose of the analysis (purpose and background are well de
 
 ## Method
 
-### We are given stock information for
+### We are given daily information for 12 stocks, having these variables to pay special attention to:
+### * Ticker
+### * Daily Volume
+### * Close
+### Having such variables, we create the following variables:
 
+### IMAGE OF VARIABLES
+
+### Using these variables we can loop through the data using the right conditions. First, to define the ticker, by making sure it has the same value as the ticker specified by our needs; then we have to add the volume of the daily opperation to the total volume of the specific ticker that is being examined, and, finally, we need to find if the Close price is the starting or ending price, which we can find out by determining if the previous or the next row have the same ticker. 
+
+### IMAGE OF CONDITIONS
+
+### 
 ## Results:
 
 ### Before 

@@ -30,6 +30,19 @@ Finally, we have to determine the location where we want to display our results,
 ![2017](https://user-images.githubusercontent.com/89816213/135199364-14bb400f-97a5-4997-9b21-d67eae825961.PNG)
 ![2018](https://user-images.githubusercontent.com/89816213/135199365-1113f2b9-32ec-474b-9a0c-bd3ba1caf704.PNG)
 
+Given the results in the previous images, we can notice that in 2018 most stocks performed negatively, in opposite to 2017. This can lead us to think that it might be a risky moment to invest, since most stocks are loosing value (asuming we are using this analysis for 2019); but, if we pay close attention, most stocks are not loosing value when compared versus the starting point of 2017, since rises during 2017 were much higher than the losses seen in 2018. 
 
+Now, it's not necessarily true that stocks are better possitioned now than they were at the begining of 2017, some have lost more than or nearly half their value over 2018, meaning that if they had won 100% during 2017, that proffit has already been lost.
 
-Summary: in a summary statement address the following questions: 1) what are the advantages or disadvantages of refactoring code? 2) How do the pros and cons apply to refactoring the original VBA Script 
+We can also assuma that, given a higher volume of operations during 2018, it may be normal for stocks to adjust their price, and actually this can be very helpful for them to make some wins, since more traded stocks usually are more attractive to investors.
+
+Lastly, considering that most stocks have lost value during the previous year, it could be advisable to invest in the ones that lost the least (less than 21%), fo they have not shown abrupt volatilty and may be now at disscount, having more chances to grow their value in the midterm.
+
+## Summary 
+
+### Refactoring 
+
+Refactoring has as an advantage that we can change or remove instructions that are either too repetitive or innecesary, which allows our code to run more smoothly. One other advantage is that we can add or change the outputs, as in this case, where we changed the code so that it changes the format according to the results. 
+
+Although it may be a good idea to refactor some codes, when working with an stablished code given by someone else it can be tricky understanding what was going through their mind, and small changes can cause a big tangle in the coding, so it may be more slow than just starting a new code.
+
